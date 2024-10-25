@@ -1,5 +1,4 @@
 // 1.write a function for factorial Number for given Number using recursion function
-
 function factorial(n){
     if (n == 1) {
         return 1 ;
