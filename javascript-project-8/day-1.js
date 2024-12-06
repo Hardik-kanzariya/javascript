@@ -16,6 +16,7 @@ button.addEventListener('click',() =>{
 
         }
     )
+    
     localStorage.setItem('users',JSON.stringify(data))
 
 });
