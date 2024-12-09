@@ -15,6 +15,8 @@ for(let i = 1; i <= 5; i++){
     console.log(data);
 }
 
+
+
 // 2.
 // 5
 // 5 4 
@@ -125,3 +127,19 @@ console.log("Number is not Armstrong Number");
 
 
 // perfect number (e.g 6) 6 => 1 2 3 (1 + 2 + 3 === 6) (all divisor sum)
+
+
+for (let i = 1; i <=5; i++){
+    let pattern="";
+    for (let j = i; j >=1; j--) {
+       pattern+=j+" ";
+    }
+    console.log(pattern);
+}
+
+// out-put:-
+// 1
+// 2 1
+// 3 2 1 
+// 4 3 2 1 
+// 5 4 3 2 1
