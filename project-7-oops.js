@@ -78,10 +78,11 @@ class Employee extends  Person{
     }
 }
 
-let person = new Person("Harry",20,);
-console.log(person.sayDetails());
+// let person = new Person("Harry",20,);
+// console.log(person.sayDetails());
 let emp = new Employee("kano",21,99000,"Web devloper");
 console.log(emp.empDetails());
+console.log(emp.sayDetails());    //my mistake
 
 // Expected out-put :-
 // name:-My name is Harry and my age 20
