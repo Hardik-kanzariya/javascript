@@ -77,24 +77,24 @@ carbtn.addEventListener('click', () => {
 
   cartData.forEach((cart, index) => {
     let row = `
-      <div class="card m-3" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">ProductName: ${cart.productName}</h5>
-          <p class="card-text">
+    <div class="card m-3" style="width: 18rem;">
+    <div class="card-body">
+    <h5 class="card-title">ProductName: ${cart.productName}</h5>
+    <p class="card-text">
             <strong>Description:</strong> ${cart.description}<br/>
             <strong>Category:</strong> ${cart.category}<br/>
             <strong>Price:</strong> ${cart.price}<br/>
-          </p>
-          <button class="btn btn-primary" onclick="removeToCart(${index})">Remove Cart</button>
-     
-        </div>
-      </div>
-      
-    `;
-    
-    cartContainer.innerHTML += row;
-  });
-  });
+            </p>
+            <button class="btn btn-primary" onclick="removeToCart(${index})">Remove Cart</button>
+            
+            </div>
+            </div>
+            
+            `;
+            
+            cartContainer.innerHTML += row;
+          });
+        });
 
 
 const removeToCart = (index) => {
@@ -104,10 +104,7 @@ const removeToCart = (index) => {
   cartCounter = cartData.length;
   cartCount.innerHTML = cartCounter;
   cartButton.click(); 
-
-
 };
-
 
 loadData();
 
