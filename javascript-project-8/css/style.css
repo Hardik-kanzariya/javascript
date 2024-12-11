@@ -26,6 +26,14 @@ body {
     font-family: Arial, sans-serif;  
 }
 
+.header-btn{
+    position:absolute;
+    top: 0;
+    left: 93%;
+    padding: 16px;
+    background-color:rgb(221, 169, 86) ;
+}
+
 .addmodel {
     background-color: transparent;
     backdrop-filter: blur(8px);
@@ -83,9 +91,4 @@ input[type="text"] {
 
 .add-product:hover {
     background-color: rgb(191, 140, 72);
-}
-
-#card{
-    width: 150px;
-
 }
