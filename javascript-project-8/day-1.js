@@ -92,7 +92,7 @@ carbtn.addEventListener('click', () => {
             
             `;
             
-            cartContainer.innerHTML += row;
+            cartContainer.innerHTML += row;b
           });
         });
 
