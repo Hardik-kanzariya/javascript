@@ -17,32 +17,35 @@ div {
 }
 
 input[type="date"] {
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 250px;
+    color: #ffff;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     margin-right: 10px;
-    background: linear-gradient(to right, #e3f2fd, #899dad);
+    background: linear-gradient(to right, #8fa6b9, #e3f2fd);
 }
 
 input[type="date"]:focus {
     outline: none;
     border-color: #6e7c8a;
     box-shadow: 0px 2px 6px rgba(0, 123, 255, 0.3);
-    background: linear-gradient(to right, #ffffff, #bbdefb);
+    /* background: linear-gradient(to right, #ffffff, #bbdefb); */
+    background: linear-gradient(to right, #718ca1,#c1d7e7);
 }
 
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background: linear-gradient(to right, #c1d7e7, #718ca1);
+    background: linear-gradient(to right, #718ca1,#c1d7e7);
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.2s ease;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    color: #ffff;
 }
 
 button:hover {
@@ -82,11 +85,12 @@ button:hover {
 .card h3 {
     font-size: 25px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .card p {
     font-size: 16px;
-    color: #192596;
+    color: #ffff;
     margin-bottom: 15px;
 }
 
