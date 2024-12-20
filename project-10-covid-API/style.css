@@ -1,0 +1,97 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    color: #333;
+}
+
+div {
+    text-align: center;
+}
+
+input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    background: linear-gradient(to right, #e3f2fd, #899dad);
+}
+
+input[type="date"]:focus {
+    outline: none;
+    border-color: #6e7c8a;
+    box-shadow: 0px 2px 6px rgba(0, 123, 255, 0.3);
+    background: linear-gradient(to right, #ffffff, #bbdefb);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: linear-gradient(to right, #c1d7e7, #718ca1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: linear-gradient(to right, #6b879b, #206ba5);
+    transform: scale(1.05);
+}
+
+#showModel {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: linear-gradient(to bottom, #bfd3d8, #5688ac);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #192596;
+    margin-bottom: 15px;
+}
+
+.card .card-detail {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
