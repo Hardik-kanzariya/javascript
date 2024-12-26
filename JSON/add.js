@@ -13,7 +13,7 @@ const tbody = document.querySelector("#tbody");
 const addmodel = document.querySelector("#addmodel");
 const editmodel = document.querySelector("#editmodel");
 
-// let UpdateIndex = null;
+let UpdateIndex = null;
 
 button.addEventListener('click',() =>{
     let data = JSON.parse(localStorage.getItem('users')) || [];

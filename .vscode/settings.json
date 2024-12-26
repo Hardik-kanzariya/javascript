@@ -4,5 +4,6 @@
         "getprevquotes",
         "nextquotes",
         "pprice"
-    ]
+    ],
+    "CodeGPT.apiKey": "CodeGPT Plus Beta"
 }

@@ -1,4 +1,4 @@
-// Day-1
+// CURD
 let pname = document.getElementById('pname');
 let pdesc = document.getElementById('pdesc');
 let pcat = document.getElementById('pcat');
