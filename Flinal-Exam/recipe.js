@@ -57,7 +57,7 @@ const loadData = () => {
     });
 };
 
-// Remove a recipe from the cart
+// Remove a recipe from the cart 
 const DeleteRecipt = (index) => {
     const recipeData = JSON.parse(localStorage.getItem('Recipe')) || [];
     recipeData.splice(index, 1);
