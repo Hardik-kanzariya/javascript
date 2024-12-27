@@ -43,7 +43,24 @@ body {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
+.editmodel {
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
 .addmodel h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.editmodel h2 {
     margin-bottom: 20px;
     font-size: 30px;
     color: white;
@@ -64,6 +81,7 @@ table td {
 table td:first-child {
     text-align: right;
     color: #fff;
+    font-size: 18px;
 }
 
 input[type="text"] {
@@ -75,6 +93,7 @@ input[type="text"] {
     border-radius: 5px;
     font-size: 14px;
 }
+
 textarea{
     width: 100%;
     box-sizing: border-box;
@@ -82,9 +101,23 @@ textarea{
     border: 1px solid #ccc;
 }
 
+.editRecipeBtn{
+    background-color: rgb(221, 169, 86);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
 
+.editRecipeBtn:hover{
+    background-color: rgb(191, 140, 72);
+}
 
-.add-Recipe{
+.add-Recipe {
     background-color: rgb(221, 169, 86);
     color: white;
     border: none;
@@ -98,4 +131,19 @@ textarea{
 
 .add-Recipe:hover {
     background-color: rgb(191, 140, 72);
+}
+
+#filterData{
+    background-color: rgb(221, 169, 86);
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#filter-input{
+    width: 50%;
 }
