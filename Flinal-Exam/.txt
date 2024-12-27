@@ -16,4 +16,4 @@ Project Requirements:​1. HTML Structure (5 points) :​​- Create an HTML fil
 
 7. Advanced Search and Filtering (10 points) :- Add a searching feature by recipe title and ingredients to quickly locate specific recipes.​- Implement a filtering feature by cuisine type to narrow down the displayed recipes.​- Introduce an advanced search option, allowing users to search for recipes based on multiple criteria simultaneously.
 
-8. User Interaction and UI (5 points) :- Ensure that input fields are cleared after successfully adding or editing a recipe.​- Implement a visually appealing and intuitive interface for a delightful user experience.
+8. User Interaction and UI (5 points) :- Ensure that input fields are cleared after successfully adding or editing a recipe.​- Implement a visually appealing and intuitive interface for a delightful user experience.  

@@ -21,6 +21,10 @@ img{
     margin-bottom: 50px;
 }
 
+.editmodel{
+    display: none;
+}
+
 body {
     font-family: Arial, sans-serif;  
 }

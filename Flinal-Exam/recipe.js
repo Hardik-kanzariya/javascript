@@ -99,7 +99,7 @@ editRecipeBtn.addEventListener('click', ()=>{
         ingredients : editIngredients.value,
         instructions : editInstructions.value,
         cuisine : editCuisine.value
-
+ 
     }
     
     localStorage.setItem('Recipe',JSON.stringify(recipeData))
