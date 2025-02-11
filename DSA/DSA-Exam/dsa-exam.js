@@ -121,8 +121,7 @@ class Stack {
         this.items[this.top] = element;
       }
     }
-  
-   
+
     pop() {
       if (this.top < 0) {
         console.log("Stack Underflow");
@@ -133,8 +132,7 @@ class Stack {
         return poppedElement;
       }
     }
-  
-    
+
     display() {
       if (this.top < 0) {
         console.log("Stack is empty");
@@ -147,16 +145,12 @@ class Stack {
     }
   }
   
-
   let stack = new Stack();
-  
-
   stack.push(5);
   stack.push(15);
   stack.push(25);
   stack.display(); 
   
-
   console.log("Popped Element:", stack.pop());
   stack.display(); 
 
